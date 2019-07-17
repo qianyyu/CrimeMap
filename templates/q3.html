@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>Question3</title>
+  <link rel="stylesheet" type="text/css" href="../static/style.css">
+</head>
+<body style="text-align:center;">
+    <a href="http://localhost:5000/"> Homepage || </a>
+    <a href="/index">Readme </a>
+    <center>
+    <form action="/q3" method="post">
+    <p><input name="s_year" placeholder="Start Year"></p>
+    <p><input name="e_year" placeholder="End Year"></p>
+    <p><input name="n"      placeholder="numbers"></p>
+	<label><input name="crime_type" type="radio" value="Assault" />Assault </label> 
+	<label><input name="crime_type" type="radio" value="Break and Enter" />Break and Enter </label> 
+	<label><input name="crime_type" type="radio" value="Robbery" />Robbery </label> 
+	<label><input name="crime_type" type="radio" value="Sexual Assaults" />Sexual Assaults </label>
+	<br /><br />  
+	<label><input name="crime_type" type="radio" value="Theft From Vehicle" />Theft From Vehicle </label> 
+	<label><input name="crime_type" type="radio" value="Theft Of Vehicle" />Theft Of Vehicle </label> 
+	<label><input name="crime_type" type="radio" value="Homicide" />Homicide </label> 
+	<label><input name="crime_type" type="radio" value="Theft Over $5000" />Theft Over $5000</label> 
+    <p><button type="submit">Submit</button></p>
+    </form>
+    </center>
+</body>
+</html>
