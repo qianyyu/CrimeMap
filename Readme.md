@@ -12,7 +12,4 @@ The program can finish the following tasks:
 
 
 ## User Guides:
-Enter the following commands in any command line tool.
-```
-python3 a4.py
-```
+Type `python3 cm.py` and you will be able to access the website on your local host (the default address is http://localhost:5000).
