@@ -1,11 +1,4 @@
 
-#------------------------------------------------------------------------------------------------------------------------------
-# Program Description:
-#   This assignment aims to write a Countdown Timer. that reads in a time in seconds,
-# counts down that time to zero, and then quits. The timer has the following format:
-# `mm:nn` and will update in place.The application is quited when 'q' is pressed or 
-# time`00:00` is reached.
-#------------------------------------------------------------------------------------------------------------------------------
 import folium
 import pandas as pd
 import numpy as np
