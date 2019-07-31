@@ -1,16 +1,18 @@
 <html>
 <head>
-  <title>Question3</title>
+  <title>Task2</title>
   <link rel="stylesheet" type="text/css" href="../static/style.css">
 </head>
 <body style="text-align:center;">
     <a href="http://localhost:5000/"> Homepage || </a>
     <a href="/index">Readme </a>
+        <br><br>
+    <hr>
     <center>
     <form action="/q3" method="post">
     <p><input name="s_year" placeholder="Start Year"></p>
     <p><input name="e_year" placeholder="End Year"></p>
-    <p><input name="n"      placeholder="numbers"></p>
+    <p><input name="n"      placeholder="Numbers"></p>
 	<label><input name="crime_type" type="radio" value="Assault" />Assault </label> 
 	<label><input name="crime_type" type="radio" value="Break and Enter" />Break and Enter </label> 
 	<label><input name="crime_type" type="radio" value="Robbery" />Robbery </label> 
@@ -22,6 +24,11 @@
 	<label><input name="crime_type" type="radio" value="Theft Over $5000" />Theft Over $5000</label> 
     <p><button type="submit">Submit</button></p>
     </form>
+        <br><br>
+    <hr>
+    <h2>Description:</h2>
+    <p>Given a range of years[Start year to End year], a crime type and an integer N, show (in a map) the Top-N </p>
+    <p>neighborhoods and their crime count where the given crime type occurred most within the given range.</p>
     </center>
 </body>
 </html>
