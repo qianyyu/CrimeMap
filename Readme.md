@@ -1,6 +1,6 @@
 # Crime Mapping: 
 ## Overview:
-This program provide a simply Web interface. The interface can guide user to execute SQL queries.
+This program provide a simply Web interface, which can guide user to search some data about crime.
 
 There are 3 buttons in total, representing task1 to task3 respectively. Once one of them is clicked, the program will be execute to solve the corresponding task. 
 
